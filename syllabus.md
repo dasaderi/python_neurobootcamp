@@ -32,9 +32,6 @@ Datatype: physiology
 
 ### Day 4: Genomics/Strings?
 
-We can ask one of the TA (Taylor) to prepare an example with genomics data that uses Numpy for analysis
-I'd be happy to help with this, or prepare a supplement with non-genomic data
-
 ### Day 5:
 More advance visualization? 
 More advanced exercises? 
