@@ -14,4 +14,4 @@ To make clear what is expected, everyone taking part in this class is required t
 
 Thank you for helping make this a welcoming, friendly learning experience for all.
 
-*This Code of Conduct was adapted from Mozilla Science https://science.mozilla.org/code-of-conduct*
+*This Code of Conduct was adapted from Mozilla Science https://science.mozilla.org/code-of-conduct*.
