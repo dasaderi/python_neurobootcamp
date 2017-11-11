@@ -12,3 +12,5 @@ The overall objectives of the course are:
 * enhance students' and postdocs' appreciation of how acquiring programming skills will help them in their careers within or outside of academia.
 Even people that don’t need to know coding, will benefit from knowing the basics skills to be able to communicate with other people in the lab who might code more.
 
+We have a [Code of Conduct](https://github.com/dasaderi/python_neurobootcamp/blob/master/Code_of_Conduct.md) that everyone who is participating in this course is invited to read carefully. Thank you!
+
