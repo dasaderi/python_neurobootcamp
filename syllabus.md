@@ -30,9 +30,12 @@ Datatype: physiology
       +   Simple summarization
       +   Simple visualization
 
-### Day 4: Genomics/Strings?
+### Day 4:
+#### Learning Objectives
+  +   Statistical modeling using numpy (Stephen/Charles tutorial)
 
 ### Day 5:
+#### Learning Objectives
 More advance visualization? 
 More advanced exercises? 
 Install Python on your machine?
