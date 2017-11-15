@@ -12,7 +12,7 @@
   +   Become familiar with python notebooks
       +   Know how to run code in a cell
       +   Know how to modify code in a cell
-  +   Learn How to use code modules / functions
+  +   Simple Datatypes in python
 
 ### Day 2: For Loops/Pandas
 #### Learning Objectives:
