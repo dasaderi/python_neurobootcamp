@@ -20,15 +20,17 @@
       +  learn how to simple data manipulation in Pandas
   +   Learn about how for loops can automate a task
 
-Datatype: physiology
+Datatype: imaging information data
 
 ### Day 3: Pandas and Visualization
 #### Learning Objectives
-  +   What can pandas do for me? (Brad's tutorial)
-      +   Loading Data
-      +   Working with dataframes
+  +   Numpy and image analysis
+      +   Loading Data into Numpy
+      +   Ray Tracing for identifying 
       +   Simple summarization
       +   Simple visualization
+
+Datatype: imaging data
 
 ### Day 4:
 #### Learning Objectives
@@ -36,7 +38,7 @@ Datatype: physiology
 
 ### Day 5:
 #### Learning Objectives
-More advance visualization? 
+More advanced visualization? 
 More advanced exercises? 
 Install Python on your machine?
 We can have students write their own simple notebook given a dataset? 
