@@ -2,6 +2,7 @@
 
 ### Day 1: Intro to Python
 #### Learning Objectives
+**Owner: Daniela**
   +   Learning programming is an ongoing process
       +   Learn together
   +   How to get help/How to understand Errors
@@ -16,6 +17,7 @@
 
 ### Day 2: For Loops/Pandas
 #### Learning Objectives:
+**Owner: Charles**
   +   Learn about Pandas and how it is useful for analysis
       +  learn how to simple data manipulation in Pandas
   +   Learn about how for loops can automate a task
@@ -24,6 +26,7 @@ Datatype: imaging information data
 
 ### Day 3: Pandas and Visualization
 #### Learning Objectives
+**Owner: Luci/Ted**
   +   Pandas and visualization
       +   Simple summarization of imaging metadata
       +   Simple visualization of imaging metadata
@@ -32,6 +35,7 @@ Datatype: imaging metadata
 
 ### Day 4:
 #### Learning Objectives
+**Owner: Brad**
   +   Image analysis (raytracing) using Numpy
 
 ### Day 5:
