@@ -24,17 +24,15 @@ Datatype: imaging information data
 
 ### Day 3: Pandas and Visualization
 #### Learning Objectives
-  +   Numpy and image analysis
-      +   Loading Data into Numpy
-      +   Ray Tracing for identifying 
-      +   Simple summarization
-      +   Simple visualization
+  +   Pandas and visualization
+      +   Simple summarization of imaging metadata
+      +   Simple visualization of imaging metadata
 
-Datatype: imaging data
+Datatype: imaging metadata
 
 ### Day 4:
 #### Learning Objectives
-  +   Statistical modeling using numpy (Stephen/Charles tutorial)
+  +   Image analysis (raytracing) using Numpy
 
 ### Day 5:
 #### Learning Objectives
