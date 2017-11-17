@@ -21,8 +21,7 @@
   +   Learn about Pandas and how it is useful for analysis
       +  learn how to simple data manipulation in Pandas
   +   Learn about how for loops can automate a task
-
-Datatype: imaging information data
+Datatype: brain slice physiology
 
 ### Day 3: Pandas and Visualization
 #### Learning Objectives
@@ -30,13 +29,16 @@ Datatype: imaging information data
   +   Pandas and visualization
       +   Simple summarization of imaging metadata
       +   Simple visualization of imaging metadata
-
-Datatype: imaging metadata
+Datatype: confocal image stack (preprocessed with Imaris)
 
 ### Day 4:
 #### Learning Objectives
 **Owner: Brad**
-  +   Image analysis (raytracing) using Numpy
+  +   Image analysis using Numpy and Matplotlib
+	  + Extracting subsets of a 3D image and plotting
+      + Determining distances between objects and surfaces
+      + Bonus: Raytracing to determine whether an object lies within a surface
+Datatype: confocal image stack (preprocessed with Imaris)
 
 ### Day 5:
 #### Learning Objectives
