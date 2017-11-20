@@ -1,17 +1,21 @@
 ## Python Neurobootcamp 2018 Syllabus
 
-This course is meant to be a gentle introduction to the Python language using data types familar to Neuroscience students, including behaviorial, electrophysiology, and imaging data. Emphasis will be on introducting students to concepts of visualization, data manipulation, and analysis using available Python packages (NumPy, Pandas, matplotlib).
+This course is meant to be a gentle introduction to the Python programming language using data types familar to Neuroscience students, including behaviorial, electrophysiology, and imaging data. Emphasis will be on introducting students to concepts of visualization, data manipulation, and analysis using available Python packages (NumPy, Pandas, matplotlib).
 
 This course is meant to be a prerequisite to the current [Intro to Programming](http://www.ohsu.edu/xd/education/schools/school-of-medicine/departments/clinical-departments/dmice/current-students/student-resources/upload/Introduction-to-Programming-Syllabus-SU16.pdf) course and [Bioinformatics Programming and Scripting (BMI 565/665)](http://www.ohsu.edu/xd/education/schools/school-of-medicine/departments/clinical-departments/dmice/current-students/student-resources/course-catalog.cfm) available in DMICE.
 
 ### Instructors:
-Ted Laderas, PhD
-email: laderast@ohsu.edu
+* Ted Laderas, Ph.D. Assistant Professor in the Bioinformatics and Computational Biology department at OHSU
+laderast@ohsu.edu
 
-Stephen David, PhD
-email: davids@ohsu.edu
+* Stephen David, Ph.D. Assistan Professor in the Otolaryngology department at OHSU / NGP and BEHN Programs
+davids@ohsu.edu
 
-Teaching Assistants: TBD
+Teaching Assistants: 
+* Brad Buran, Ph.D. / buran@ohsu.edu
+* Daniela Saderi Ph.D Candidate NGP / saderid@ohsu.edu
+* Lucille Moore Ph.D Candidate NGP / moorlu@ohsu.edu
+* Charlie Heller Ph.D Candidate NGP / hellerc@ohsu.edu
 
 ### Prerequisites
 
@@ -36,8 +40,8 @@ After taking this course, students should be able to:
 
 Grading will be Pass/No Pass based on the following:
 
-1) class participation in discussions (50%) and 
-2) a short final project consisting of an analysis using a python notebook will be required (50%).
+* Class attendance participation in discussions (50%) 
+* A short final project consisting of an analysis using a Python Jupyter notebook will be required (50%)
 
 ### Useful Resources
 
