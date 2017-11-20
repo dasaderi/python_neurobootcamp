@@ -12,10 +12,12 @@
       +   Know how to run code in a cell
       +   Know how to modify code in a cell
   +   Simple Datatypes in python
+  +   End with a simple exercise using DNA strings
 
 ### Day 2: For Loops/Pandas
 #### Learning Objectives:
-**Owner: Charles**
+**Owner: Charlie**
+  +   Intro to lists, sets, and dictionaries
   +   Learn about Pandas and how it is useful for analysis
       +  learn how to simple data manipulation in Pandas
   +   Learn about how for loops can automate a task
