@@ -41,5 +41,3 @@ Grading will be Pass/No Pass based on the following:
 
 ### Useful Resources
 
-test
-
