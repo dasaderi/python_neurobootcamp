@@ -1,6 +1,6 @@
 # Python Neuro Bootcamp Code of Conduct
 
-We value the participation of every member of our community and want everyone to have an enjoyable and fulfilling learning experience. Accordingly, everyone, including students, TAs, and leaders, as expected to show respect and courtesy to others throughout the course. 
+We value the participation of every member of our community and want everyone to have an enjoyable and fulfilling learning experience. Accordingly, everyone, including students, TAs, and leaders, are expected to show respect and courtesy to others throughout the course. 
 
 To make clear what is expected, everyone taking part in this class is required to conform to the following Code of Conduct. If you experience a violation, please contact one of the class organizers. All communication will be treated as confidential.
 
