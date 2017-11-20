@@ -11,6 +11,8 @@ email: laderast@ohsu.edu
 Stephen David, PhD
 email: davids@ohsu.edu
 
+Teaching Assistants: TBD
+
 ### Prerequisites
 
 A laptop with web browser is required. No experience with Python or programming is necessary.
@@ -24,9 +26,11 @@ After taking this course, students should be able to:
 	+ Automate simple computational tasks
 	+ Be able to visualize data
 
+### Calendar
+
 ### Grading
 
-Grading will be Pass/Fail based on the following:
+Grading will be Pass/No Pass based on the following:
 
 1) class participation in discussions (50%) and 
 2) a short final project consisting of an analysis using a python notebook will be required (50%).
