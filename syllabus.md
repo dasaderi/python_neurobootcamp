@@ -26,7 +26,11 @@ After taking this course, students should be able to:
 	+ Automate simple computational tasks
 	+ Be able to visualize data
 
-### Calendar
+### Course Calendar
+
+	+ January 8-12
+	+ 10 AM - 12 PM 
+	+ Location: TBD
 
 ### Grading
 
@@ -34,6 +38,8 @@ Grading will be Pass/No Pass based on the following:
 
 1) class participation in discussions (50%) and 
 2) a short final project consisting of an analysis using a python notebook will be required (50%).
+
+### Useful Resources
 
 
 
