@@ -1,49 +1,35 @@
 ## Python Neurobootcamp 2018 Syllabus
 
-### Day 1: Intro to Python
-#### Learning Objectives
-**Owner: Daniela**
-  +   Learning programming is an ongoing process
-      +   Learn together
-  +   How to get help/How to understand Errors
-      +   Don't get discouraged!
-      +   Internal Python Documentation
-      +   Stack Overflow/Googling Errors
-      +   SW carpentry's section on errors is here: https://southampton-rsg.github.io/2017-08-01-southampton-swc/novice/python/07-errors.html
-  +   Become familiar with python notebooks
-      +   Know how to run code in a cell
-      +   Know how to modify code in a cell
-  +   Simple Datatypes in python
+This course is meant to be a gentle introduction to the Python language using data types familar to Neuroscience students, including behaviorial, electrophysiology, and imaging data. Emphasis will be on introducting students to concepts of visualization, data manipulation, and analysis using available Python packages (NumPy, Pandas, matplotlib).
 
-### Day 2: For Loops/Pandas
-#### Learning Objectives:
-**Owner: Charles**
-  +   Learn about Pandas and how it is useful for analysis
-      +  learn how to simple data manipulation in Pandas
-  +   Learn about how for loops can automate a task
-Datatype: brain slice physiology
+This course is meant to be a prerequisite to the current [Intro to Programming](http://www.ohsu.edu/xd/education/schools/school-of-medicine/departments/clinical-departments/dmice/current-students/student-resources/upload/Introduction-to-Programming-Syllabus-SU16.pdf) course and [Bioinformatics Programming and Scripting (BMI 565/665)](http://www.ohsu.edu/xd/education/schools/school-of-medicine/departments/clinical-departments/dmice/current-students/student-resources/course-catalog.cfm) available in DMICE.
 
-### Day 3: Pandas and Visualization
-#### Learning Objectives
-**Owner: Luci/Ted**
-  +   Pandas and visualization
-      +   Simple summarization of imaging metadata
-      +   Simple visualization of imaging metadata
-Datatype: confocal image stack (preprocessed with Imaris)
+### Instructors:
+Ted Laderas, PhD
+email: laderast@ohsu.edu
 
-### Day 4:
-#### Learning Objectives
-**Owner: Brad**
-  +   Image analysis using Numpy and Matplotlib
-	  + Extracting subsets of a 3D image and plotting
-      + Determining distances between objects and surfaces
-      + Bonus: Raytracing to determine whether an object lies within a surface
-Datatype: confocal image stack (preprocessed with Imaris)
+Stephen David, PhD
+email: davids@ohsu.edu
 
-### Day 5:
-#### Learning Objectives
-More advanced visualization? 
-More advanced exercises? 
-Install Python on your machine?
-We can have students write their own simple notebook given a dataset? 
-Yes. What are thoughts on just giving them a dataset and ask
+### Prerequisites
+
+A laptop with web browser is required. No experience with Python or programming is necessary.
+
+### Learning objectives
+
+After taking this course, students should be able to:
+
+	+ Understand basic data types in Python
+	+ Conduct data manipulation and analysis
+	+ Automate simple computational tasks
+	+ Be able to visualize data
+
+### Grading
+
+Grading will be Pass/Fail based on the following:
+
+1) class participation in discussions (50%) and 
+2) a short final project consisting of an analysis using a python notebook will be required (50%).
+
+
+
