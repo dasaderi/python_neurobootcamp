@@ -51,7 +51,7 @@ Grading will be Pass/No Pass based on the following:
 * [Python documentation](https://www.python.org/doc/) and where to find help:
     - [Tutorial](https://docs.python.org/2/tutorial/index.html)
     - [Library Reference](https://docs.python.org/2/library/index.html)
-    - [Scientific python stack documentation: numpy, scipy, matplotlib](http://scipy.org/docs.html) [Stack Overflow](http://stackoverflow.com)
+    - [Scientific python stack documentation: numpy, scipy, matplotlib](http://scipy.org/docs.html), [Stack Overflow](http://stackoverflow.com)
     - [Quick Python reference](https://github.com/justmarkham/python-reference)
     
 * Cheat sheets:
@@ -65,5 +65,8 @@ Grading will be Pass/No Pass based on the following:
 * Books:
     - [Automate the boring stuff with Python](https://automatetheboringstuff.com/)
     - [Python for data analysis](http://shop.oreilly.com/product/0636920023784.do)
+    
+ ### Code of Conduct
+ 
     
     
