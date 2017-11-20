@@ -47,13 +47,13 @@ Grading will be Pass/No Pass based on the following:
 * Online courses: 
     - Free material from Python for Everybody textbook and Coursera class ([PY4E](https://www.py4e.com/))  
     - [Enthought Training on Demand](https://www.enthought.com/) (great place to get free intro to Python classes for free with edu email) 
-    - [Quick Python reference](https://github.com/justmarkham/python-reference)
 
 * [Python documentation](https://www.python.org/doc/) and where to find help:
     - [Tutorial](https://docs.python.org/2/tutorial/index.html)
     - [Library Reference](https://docs.python.org/2/library/index.html)
     - [Scientific python stack documentation: numpy, scipy, matplotlib](http://scipy.org/docs.html) [Stack Overflow](http://stackoverflow.com)
-
+    - [Quick Python reference](https://github.com/justmarkham/python-reference)
+    
 * Cheat sheets:
     - [Matlab-to-Python](http://mathesaurus.sourceforge.net/matlab-numpy.html)
     - [Matlab-to-Python](http://mathesaurus.sourceforge.net/matlab-python-xref.pdf)
