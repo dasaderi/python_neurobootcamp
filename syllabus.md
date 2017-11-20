@@ -21,16 +21,16 @@ A laptop with web browser is required. No experience with Python or programming 
 
 After taking this course, students should be able to:
 
-	+ Understand basic data types in Python
-	+ Conduct data manipulation and analysis
-	+ Automate simple computational tasks
-	+ Be able to visualize data
+	* Understand basic data types in Python
+	* Conduct data manipulation and analysis
+	* Automate simple computational tasks
+	* Be able to visualize data
 
 ### Course Calendar
 
-	+ January 8-12
-	+ 10 AM - 12 PM 
-	+ Location: TBD
+	* January 8-12
+	* 10 AM - 12 PM 
+	* Location: TBD
 
 ### Grading
 
