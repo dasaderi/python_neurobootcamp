@@ -11,7 +11,7 @@
   +   Become familiar with python notebooks
       +   Know how to run code in a cell
       +   Know how to modify code in a cell
-  +   Simple Datatypes in python
+  +   Simple data types in python (I started to work on this [notebook](https://github.com/dasaderi/python_neurobootcamp/blob/master/python-neurobootcamp-crush-intro.ipynb))
   +   End with a simple exercise using DNA strings
 
 ### Day 2: For Loops/Pandas
