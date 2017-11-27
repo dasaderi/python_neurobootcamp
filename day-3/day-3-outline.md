@@ -1,10 +1,10 @@
 ## Pandas Tutorials
 
-http://synesthesiam.com/posts/an-introduction-to-pandas.html
-https://pandas.pydata.org/pandas-docs/stable/10min.html
-https://www.dataquest.io/blog/pandas-python-tutorial/
-https://www.dataquest.io/blog/pandas-cheat-sheet/
-https://www.datacamp.com/community/tutorials/pandas-tutorial-dataframe-python
++ http://synesthesiam.com/posts/an-introduction-to-pandas.html
++ https://pandas.pydata.org/pandas-docs/stable/10min.html
++ https://www.dataquest.io/blog/pandas-python-tutorial/
++ https://www.dataquest.io/blog/pandas-cheat-sheet/
++ https://www.datacamp.com/community/tutorials/pandas-tutorial-dataframe-python
 
 
 ## Day 3 pandas
