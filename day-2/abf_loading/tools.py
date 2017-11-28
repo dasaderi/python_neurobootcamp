@@ -11,9 +11,9 @@ from neo.io import AxonIO
 import pandas as pd
 
 import sys
-sys.path.append('charlie/Desktop/python_bootcamp/Tims_stuff')
+sys.path.append('abf_loading')
 
-def abf_to_csv(filename='PVcell3.abf'):
+def abf_to_csv(filename='/home/charlie/Desktop/python_bootcamp/python_neurobootcamp/day-2/abf_loading/PVcell3.abf'):
     
     '''
     Writes data for given abf file into a csv format. Two .csv files will be created in 
@@ -21,8 +21,9 @@ def abf_to_csv(filename='PVcell3.abf'):
     
     These sheets are also returned as pandas data frames by this function    
     '''
-    
-    r = AxonIO(filename='PVcell3.abf')
+    print(filename)
+    print('Im alive')
+    r = AxonIO(filename=filename)
     r = r.read_block()
     
     # For now, hardcode the date and the cell type (based on this filename format)
