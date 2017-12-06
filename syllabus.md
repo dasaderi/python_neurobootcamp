@@ -1,6 +1,6 @@
 ## Python Neurobootcamp 2018 Syllabus
 
-This course is meant to be a gentle introduction to the Python programming language using data types familar to Neuroscience students, including behaviorial, electrophysiology, and imaging data. Emphasis will be on introducting students to concepts of visualization, data manipulation, and analysis using available Python packages (NumPy, Pandas, matplotlib).
+This course is meant to be a gentle introduction to the Python programming language using data types familiar to Neuroscience students, including behavioral, electrophysiology, and imaging data. Emphasis will be on introducing students to concepts of visualization, data manipulation, and analysis using available Python packages (NumPy, Pandas, matplotlib).
 
 This course is meant to be a prerequisite to the current [Intro to Programming](http://www.ohsu.edu/xd/education/schools/school-of-medicine/departments/clinical-departments/dmice/current-students/student-resources/upload/Introduction-to-Programming-Syllabus-SU16.pdf) course and [Bioinformatics Programming and Scripting (BMI 565/665)](http://www.ohsu.edu/xd/education/schools/school-of-medicine/departments/clinical-departments/dmice/current-students/student-resources/course-catalog.cfm) available in DMICE.
 
@@ -8,7 +8,7 @@ This course is meant to be a prerequisite to the current [Intro to Programming](
 * Ted Laderas, Ph.D. Assistant Professor in the Bioinformatics and Computational Biology department at OHSU
 email: laderast@ohsu.edu
 
-* Stephen David, Ph.D. Assistan Professor in the Otolaryngology department at OHSU / NGP and BEHN Programs
+* Stephen David, Ph.D. Assistant Professor in the Otolaryngology department at OHSU / NGP and BEHN Programs
 email: davids@ohsu.edu
 
 Teaching Assistants: 
@@ -41,7 +41,7 @@ After taking this course, students should be able to:
 Grading will be Pass/No Pass based on the following:
 
 * Class attendance participation in discussions (50%) 
-* A short final project consisting of an analysis using a Python Jupyter notebook will be required (50%)
+* A short final project consisting of an analysis using a Python Jupyter notebook (50%)
 
 ### Useful Resources
 * Online courses: 

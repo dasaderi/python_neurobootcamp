@@ -1,0 +1,75 @@
+60	0	0	Area	um^2
+280	0	1	BoundingBoxAA Length X	um
+281	0	1	BoundingBoxAA Length Y	um
+282	0	1	BoundingBoxAA Length Z	um
+283	0	2	BoundingBoxOO Length A	um
+284	0	2	BoundingBoxOO Length B	um
+285	0	2	BoundingBoxOO Length C	um
+286	0	3	Center of Homogeneous Mass X	um
+287	0	3	Center of Homogeneous Mass Y	um
+288	0	3	Center of Homogeneous Mass Z	um
+289	0	4	Center of Image Mass X	um
+290	0	5	Center of Image Mass X	um
+291	0	6	Center of Image Mass X	um
+292	0	4	Center of Image Mass Y	um
+293	0	5	Center of Image Mass Y	um
+294	0	6	Center of Image Mass Y	um
+295	0	4	Center of Image Mass Z	um
+296	0	5	Center of Image Mass Z	um
+297	0	6	Center of Image Mass Z	um
+240	0	7	Distance from Origin	um
+62	0	0	Distance to Image Border XY	um
+63	0	0	Distance to Image Border XYZ	um
+298	0	8	Ellipsoid Axis A X	um
+299	0	8	Ellipsoid Axis A Y	um
+300	0	8	Ellipsoid Axis A Z	um
+301	0	9	Ellipsoid Axis B X	um
+302	0	9	Ellipsoid Axis B Y	um
+303	0	9	Ellipsoid Axis B Z	um
+304	0	10	Ellipsoid Axis C X	um
+305	0	10	Ellipsoid Axis C Y	um
+306	0	10	Ellipsoid Axis C Z	um
+217	0	0	Ellipsoid Axis Length A	um
+218	0	0	Ellipsoid Axis Length B	um
+219	0	0	Ellipsoid Axis Length C	um
+230	0	0	Ellipticity (oblate)	
+229	0	0	Ellipticity (prolate)	
+55	0	0	Generation	
+45	0	11	Intensity Center	
+64	0	12	Intensity Center	
+72	0	13	Intensity Center	
+49	0	11	Intensity Max	
+68	0	12	Intensity Max	
+76	0	13	Intensity Max	
+46	0	11	Intensity Mean	
+65	0	12	Intensity Mean	
+73	0	13	Intensity Mean	
+50	0	11	Intensity Median	
+69	0	12	Intensity Median	
+77	0	13	Intensity Median	
+48	0	11	Intensity Min	
+67	0	12	Intensity Min	
+75	0	13	Intensity Min	
+47	0	11	Intensity StdDev	
+66	0	12	Intensity StdDev	
+74	0	13	Intensity StdDev	
+51	0	11	Intensity Sum	
+70	0	12	Intensity Sum	
+78	0	13	Intensity Sum	
+212	0	0	Number of Disconnected Components	
+213	1	0	Number of Disconnected Components per Time Point	
+205	1	0	Number of Surfaces per Time Point	
+210	0	0	Number of Triangles	
+211	0	0	Number of Vertices	
+71	0	0	Number of Voxels	
+241	0	14	Position X	um
+242	0	14	Position Y	um
+243	0	14	Position Z	um
+209	0	0	Sphericity	
+54	0	0	Time	s
+53	0	0	Time Index	
+105	1	0	Total Number of Disconnected Components	
+93	1	0	Total Number of Surfaces	
+104	1	0	Total Number of Triangles	
+198	1	0	Total Number of Voxels	
+61	0	0	Volume	um^3
