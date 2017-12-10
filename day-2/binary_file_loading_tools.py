@@ -37,10 +37,6 @@ def binary_to_csv(filename=None):
     
     # for name purposes later on, remove ".abf" extension from filename
     filename = splitext(basename(filename))[0]
-    
-    # For now, hardcode the date and the cell type (based on this filename format)
-    # you could change this by getting rid of this line of code and naming your file accordingly
-    #filename="PV_1_10_03_2014.abf"
         
     # Define number of sweeps in this protocol (.abf file)
     n_sweeps = len(r.segments)
