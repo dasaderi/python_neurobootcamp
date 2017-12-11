@@ -11,8 +11,16 @@ email: laderast@ohsu.edu
 * Stephen David, Ph.D. Assistant Professor in the Otolaryngology department at OHSU / NGP and BEHN Programs
 email: davids@ohsu.edu
 
-Teaching Assistants: 
-* Brad Buran, Ph.D. / buran@ohsu.edu
+### Co-Instructors:
+* Brad Buran, Ph.D. Research Instructor, Oregon Hearing Research Center at OHSU  
+email: buran@ohsu.edu
+* Lisa Karstens, Ph.D. Assistant Professor in the Department of Medical Informatics and Clinical Epidemiology at OHSU  
+email: karstens@ohsu.edu
+* Michael Mooney, Ph.D. Assistant Professor in the Division of Bioinformatics & Computational Biology at OHSU  
+email: mooneymi@ohsu.edu
+
+
+### Teaching Assistants: 
 * Daniela Saderi Ph.D Candidate NGP / saderid@ohsu.edu
 * Lucille Moore Ph.D Candidate NGP / moorlu@ohsu.edu
 * Charlie Heller Ph.D Candidate NGP / hellerc@ohsu.edu
