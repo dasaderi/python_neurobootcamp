@@ -21,9 +21,10 @@ email: mooneymi@ohsu.edu
 
 
 ### Teaching Assistants: 
-* Daniela Saderi Ph.D Candidate NGP / saderid@ohsu.edu
-* Lucille Moore Ph.D Candidate NGP / moorlu@ohsu.edu
-* Charlie Heller Ph.D Candidate NGP / hellerc@ohsu.edu
+* Daniela Saderi Ph.D. Candidate NGP / saderid@ohsu.edu
+* Lucille Moore Ph.D. Candidate NGP / moorlu@ohsu.edu
+* Charlie Heller Ph.D. Candidate NGP / hellerc@ohsu.edu
+* Zachary Schwartz Ph.D. Candidate NGP / schwarza@ohsu.edu
 
 ### Prerequisites
 
