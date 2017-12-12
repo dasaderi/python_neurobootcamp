@@ -27,8 +27,8 @@ Datatype: brain slice physiology
 #### Learning Objectives
 **Owner: Luci/Ted**
   +   Pandas and visualization
-      +   Simple summarization of imaging metadata
-      +   Simple visualization of imaging metadata
+      +   Simple intro to summarization and visualization of a sample dataset using Seaborn
+      +   More in-depth summarization and visualization with imaging metadata
 Datatype: confocal image stack (preprocessed with Imaris)
 
 ### Day 4:
