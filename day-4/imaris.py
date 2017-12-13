@@ -143,8 +143,7 @@ def load_node_stats(fh, name, ntype, xyz_base=None):
         # Map data coordinates to pixel coordinates in image array
         origin = extents[dim.lower() + '_start']
         voxel_size = extents[dim.lower() + '_voxel']
-        print(origin, voxel_size)
         data_coords = sv[dim]
         pixel_coords = (data_coords-origin)/voxel_size
         sv['index_' + dim] = pixel_coords.astype('i')
-    return sv
+    return sv[['X', 'Y', 'Z']]
