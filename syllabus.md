@@ -1,6 +1,6 @@
 ## Python Neurobootcamp 2018 Syllabus
 
-This course is meant to be a gentle introduction to the Python programming language using data types familiar to Neuroscience students, including behavioral, electrophysiology, and imaging data. Emphasis will be on introducing students to concepts of visualization, data manipulation, and analysis using available Python packages (NumPy, Pandas, matplotlib).
+This course is meant to be a gentle introduction to the Python programming language using data types familiar to Neuroscience students, including behavioral, electrophysiology, and imaging data. Emphasis will be on introducing students to concepts of visualization, data manipulation, and analysis using available Python packages (NumPy, Pandas, matplotlib, and seaborn).
 
 This course is meant to be a prerequisite to the current [Intro to Programming](http://www.ohsu.edu/xd/education/schools/school-of-medicine/departments/clinical-departments/dmice/current-students/student-resources/upload/Introduction-to-Programming-Syllabus-SU16.pdf) course and [Bioinformatics Programming and Scripting (BMI 565/665)](http://www.ohsu.edu/xd/education/schools/school-of-medicine/departments/clinical-departments/dmice/current-students/student-resources/course-catalog.cfm) available in DMICE.
 
@@ -21,9 +21,10 @@ email: mooneymi@ohsu.edu
 
 
 ### Teaching Assistants: 
-* Daniela Saderi Ph.D Candidate NGP / saderid@ohsu.edu
-* Lucille Moore Ph.D Candidate NGP / moorlu@ohsu.edu
-* Charlie Heller Ph.D Candidate NGP / hellerc@ohsu.edu
+* Daniela Saderi Ph.D. Candidate NGP / saderid@ohsu.edu
+* Lucille Moore Ph.D. Candidate NGP / moorlu@ohsu.edu
+* Charlie Heller Ph.D. Candidate NGP / hellerc@ohsu.edu
+* Zachary Schwartz Ph.D. Candidate NGP / schwarza@ohsu.edu
 
 ### Prerequisites
 
