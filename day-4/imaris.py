@@ -3,7 +3,6 @@ import tables as tb
 import re
 import pandas as pd
 import numpy as np
-import trimesh
 
 def read_table(table, index_col=None):
     df = pd.DataFrame(table.read())
@@ -68,41 +67,6 @@ def find_scene_node(scene_node, name, ntype):
             if get_name(node) == name:
                 return node
     raise AttributeError('{} does not exist'.format(name))
-
-
-def load_mesh(fh, name, color=None, split_by_surface=False):
-    '''
-    Loads mesh from scene
-    '''
-    node = find_scene_node(fh.root.Scene8, name, 'surface')
-    vertices = read_table(node.Vertex)
-    triangles = read_table(node.Triangle)
-    vi = vertices[['position_x', 'position_y', 'position_z']].values
-    vn = vertices[['normal_x', 'normal_y', 'normal_z']].values
-    ti = triangles.values
-
-    if split_by_surface:
-        meshes = []
-        surfaces = read_table(node.Surface)
-        for _, surface in surfaces.iterrows():
-            vlb = surface['index_vertex_begin']
-            vub = surface['index_vertex_end']
-            tlb = surface['index_triangle_begin']
-            tub = surface['index_triangle_end']
-            svi = vi[vlb:vub]
-            svn = vn[vlb:vub]
-            sti = ti[tlb:tub] - vlb
-            mesh = trimesh.Trimesh(vertices=svi, faces=sti)
-            mesh.surface_id = surface['id']
-            if color is not None:
-                mesh.visual.face_colors[:] = np.array(color)
-            meshes.append(mesh)
-        return meshes
-    else:
-        mesh = trimesh.Trimesh(vertices=vi, faces=ti, vertex_normals=vn)
-        if color is not None:
-            mesh.visual.face_colors[:] = np.array(color)
-        return mesh
 
 
 def load_node_stats(fh, name, ntype, xyz_base=None):
