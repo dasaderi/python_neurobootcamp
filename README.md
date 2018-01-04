@@ -2,7 +2,7 @@
 
 This repository contains materials for the **Python neuro-bootcamp**, a one-week long class geared towards graduate students and postdoctoral fellows in the [Neuroscience Graduate Program at Oregon Health & Science Unievristy (OHSU)](http://www.ohsu.edu/xd/education/schools/school-of-medicine/academic-programs/neuroscience-graduate-program/) who have little to no experience in programming. 
 
-The first iteration of this course, NEUS640, will be held on the second week of January 2018, every day from 9-11:30am. For more information, please read the course's syllabus.
+The first iteration of this course, NEUS640, will be held on the second week of January 2018, every day from 9-11:30am. For more information, please read the course's [syllabus](https://github.com/dasaderi/python_neurobootcamp/blob/master/NEUS640_syllabus_2018.pdf).
 
 ## Goals of the bootcamp 
 The overall objectives of the course are: 
