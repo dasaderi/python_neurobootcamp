@@ -9,22 +9,28 @@ On a single linux machine (user "svd" can be replaced by some other name of cour
 
 2. create user svd with sudo privileges, install python (miniconda in this example) and clone the python_neurobootcamp repo from github into /svd/home/
 
-3. create accounts user01 ... user30. for each userXX (See also `create_bootcamp_users`):
+3. create accounts user01 ... user30. for each userXX (See also create_bootcamp_users script):
+   
    Create users and clone svd’s repo their home directory
-   ```for i in $(seq -f "%02g" 1 30)
+   
+```for i in $(seq -f "%02g" 1 30)
   do
    user="user$i"
    echo "Creating $user"
    sudo useradd -s /bin/bash -p $user -m -d /home/$user $user
    sudo su -l $user -c "git clone /home/svd/python_neurobootcamp"
   done
-   ```
+```
+
    Set password for each user with "sudo passwd userXX"
+   
    If you want users to be able to log directly (not with jupyterhub): create .bash_login, set PATH to include to svd’s python install
 
 4. Things to think about for testing:
-   are all the python packages installed that are required by each notebook?
-   can the server handle X students all logged in and running the notebooks at teh same time?
+
+   Are all the python packages installed that are required by each notebook?
+   
+   Can the server handle the load of X students all logged in and running the notebooks at the same time?
 
 
 ### Starting the server
@@ -46,7 +52,7 @@ for i in $(seq -f "%02g" 1 40)
       user="user$i"
       echo $user
       sudo su -l $user -c "cd ~/python_neurobootcamp; git checkout -- *; git pull
-   done    
+   done
 ```
 
 ### Instructions for users to download their modified notebooks:
