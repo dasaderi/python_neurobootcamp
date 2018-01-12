@@ -1,4 +1,5 @@
 ## Getting started with neurobootcamp notebooks:
+(These guidelines are specific to the OHSU bootcamp but can be adapted to your own class. Check out how we set up the [Jupyterhub](https://github.com/dasaderi/python_neurobootcamp/blob/master/hubInstall.md))
 
 1. Open this URL in your browser: [http://34.216.120.89:8000/](http://34.216.120.89:8000/)
 2. Log in with the username/password provided by the instructor
