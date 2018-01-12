@@ -4,6 +4,8 @@ This repository contains materials for the **Python neuro-bootcamp**, a one-week
 
 The first iteration of this course, NEUS640, will be held on the second week of January 2018, every day from 9-11:30am. For more information, please read the course's [syllabus](https://github.com/dasaderi/python_neurobootcamp/blob/master/NEUS640_syllabus_2018.pdf).
 
+We run this course on the JupyterHub following their [installation guidelines](https://jupyterhub.readthedocs.io/en/latest/). You can also find more information about how we set it up [here](https://github.com/dasaderi/python_neurobootcamp/tree/master/server_setup).
+
 ## Goals of the bootcamp 
 The overall objectives of the course are: 
 * build a community of neuroscientists who are committed to help each other and learn together how to code; 
