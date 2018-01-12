@@ -7,13 +7,13 @@ On a single linux machine (user "svd" can be replaced by some other name of cour
 1. Install jupyterhub as root, configure more or less vanilla installation, as described in their docs
 [https://github.com/jupyterhub/jupyterhub#installation]
 
-2. create user svd with sudo privileges, install python (miniconda in this example) and clone the python_neurobootcamp repo from github into /svd/home/
+2. Create user svd with sudo privileges, install python (miniconda in this example) and clone the python_neurobootcamp repo from github into /svd/home/
 
-3. create accounts user01 ... user30. for each userXX (See also create_bootcamp_users script):
-   
+3. Create accounts user01 ... user30. for each userXX (See also create_bootcamp_users script):
    Create users and clone svd’s repo their home directory
    
-```for i in $(seq -f "%02g" 1 30)
+```
+for i in $(seq -f "%02g" 1 30)
   do
    user="user$i"
    echo "Creating $user"
@@ -23,15 +23,11 @@ On a single linux machine (user "svd" can be replaced by some other name of cour
 ```
 
    Set password for each user with "sudo passwd userXX"
-   
    If you want users to be able to log directly (not with jupyterhub): create .bash_login, set PATH to include to svd’s python install
 
 4. Things to think about for testing:
-
    Are all the python packages installed that are required by each notebook?
-   
    Can the server handle the load of X students all logged in and running the notebooks at the same time?
-
 
 ### Starting the server
 
@@ -41,7 +37,8 @@ After reboot, log in as svd and run ```sudo su -l -c /home/svd/miniconda3/bin/ju
 
 If the likely case that the repo changes after the intial installation, here's a script to pull down latest repo to svd, and then have each userXX pull the repo from svd (update_bootcamp)
 
-```#!/bin/bash
+```
+#!/bin/bash
 
 echo "pulling latest to svd install"
 sudo su -l svd -c"cd python_neurobootcamp; git pull"
@@ -61,7 +58,10 @@ for i in $(seq -f "%02g" 1 40)
 
 2. In the upper right corner, click New -> Python 3 notebook
 
-3. A new window should appear with a single empty cell. Paste in this text: ```!tar cvfz python_neurobootcamp.tar.gz python_neurobootcamp``` and run that cell.
+3. A new window should appear with a single empty cell. Paste in this text into the cell and run: 
+```
+!tar cvfz python_neurobootcamp.tar.gz python_neurobootcamp
+```
 
 4. Close the current notebook. You should then see a new file `python_neurobootcamp.tar.gz` in your notebook home folder.
 
