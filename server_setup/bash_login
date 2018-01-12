@@ -1,0 +1,9 @@
+source .bashrc
+
+# option to automatically wipe changes and pull the most recent version of the repo
+echo "Pulling latest python_neurobootcamp"
+cd ~/python_neurobootcamp
+git checkout -- *
+git pull
+
+cd ~

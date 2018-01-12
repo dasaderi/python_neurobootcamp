@@ -1,0 +1,14 @@
+#!/bin/bash
+
+echo "pulling latest to svd install"
+sudo su -l svd -c"cd python_neurobootcamp; git pull"
+
+echo "propogating to userXX accounts"
+for i in $(seq -f "%02g" 1 40)
+   do
+      user="user$i"
+      echo $user
+      #sudo su -l $user -c ls
+      sudo su -l $user -c "cd ~/python_neurobootcamp; git checkout -- *; git pull"
+   done    
+        
