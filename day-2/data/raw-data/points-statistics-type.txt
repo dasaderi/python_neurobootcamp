@@ -1,0 +1,38 @@
+60	0	0	Area	um^2
+237	0	1	Diameter X	um
+238	0	1	Diameter Y	um
+239	0	1	Diameter Z	um
+240	0	2	Distance from Origin	um
+62	0	0	Distance to Image Border XY	um
+63	0	0	Distance to Image Border XYZ	um
+55	0	0	Generation	
+45	0	3	Intensity Center X
+64	0	4	Intensity Center Y
+72	0	5	Intensity Center Z
+49	0	3	Intensity Max X
+68	0	4	Intensity Max Y
+76	0	5	Intensity Max Z
+46	0	3	Intensity Mean X	
+65	0	4	Intensity Mean Y
+73	0	5	Intensity Mean Z
+50	0	3	Intensity Median X	
+69	0	4	Intensity Median Y
+77	0	5	Intensity Median Z
+48	0	3	Intensity Min X
+67	0	4	Intensity Min Y
+75	0	5	Intensity Min Z
+47	0	3	Intensity StdDev X
+66	0	4	Intensity StdDev Y
+74	0	5	Intensity StdDev Z
+51	0	3	Intensity Sum X
+70	0	4	Intensity Sum Y
+78	0	5	Intensity Sum Z
+56	1	0	Number of Spots per Time Point	
+71	0	0	Number of Voxels	
+241	0	6	Position X	um
+242	0	6	Position Y	um
+243	0	6	Position Z	um
+54	0	0	Time	s
+53	0	0	Time Index	
+22	1	0	Total Number of Spots	
+61	0	0	Volume	um^3
