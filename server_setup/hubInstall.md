@@ -9,10 +9,18 @@ On a single linux machine (user "svd" can be replaced by some other name of cour
 
 2. create user svd with sudo privileges, install python (miniconda in this example) and clone the python_neurobootcamp repo from github into /svd/home/
 
-3. create accounts user01… user20. for each userXX:
-   Set password with "sudo passwd userXX"
-   clone svd’s repo into userXX’s home dir ```cd ~; git clone /home/svd/python_neurobootcamp```
-   create .bash_login, set PATH to include to svd’s python install
+3. create accounts user01 ... user30. for each userXX (See also `create_bootcamp_users`):
+   Create users and clone svd’s repo their home directory
+   ```for i in $(seq -f "%02g" 1 30)
+  do
+   user="user$i"
+   echo "Creating $user"
+   sudo useradd -s /bin/bash -p $user -m -d /home/$user $user
+   sudo su -l $user -c "git clone /home/svd/python_neurobootcamp"
+  done
+   ```
+   Set password for each user with "sudo passwd userXX"
+   If you want users to be able to log directly (not with jupyterhub): create .bash_login, set PATH to include to svd’s python install
 
 4. Things to think about for testing:
    are all the python packages installed that are required by each notebook?
