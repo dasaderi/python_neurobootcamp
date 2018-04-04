@@ -16,5 +16,7 @@ Even people that don’t need to know coding, will benefit from learning the bas
 
 We have a [Code of Conduct](https://github.com/dasaderi/python_neurobootcamp/blob/master/Code_of_Conduct.md) that everyone who is participating in this course is invited to read carefully. Thank you!
 
+This course was partially funded from a NLM T15 Training Grant supplement: T15-LM007088-23
+
 If you have any questions regarding the structure of this class or comments on the materials, please don't hesitate to contact Daniela at daniela.saderi@gmail.com. 
 
