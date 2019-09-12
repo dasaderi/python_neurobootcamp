@@ -261,3 +261,53 @@ def load_baphy_data(filepath,level=0):
         data['pupil']=None
     return(data)
 
+# define some global variables for the simulated data
+
+# filter linear gain 
+h1=np.array([[.5], [0]])
+dimcount=len(h1)  # ie, two input channels
+h0=np.zeros([1,1])
+
+# parameters of static NL (if used)
+sigmoid_parms=np.array([-1, 2.5, 0.5, 0.2])
+
+# number of samples for estimation/testing
+T=dimcount*100
+
+def simulate_simple_data(correlated_inputs=False, output_nonlinearity=False, noise_amplitude=0.5,shifted_mean=False):
+
+    if shifted_mean:
+        # mean of input -- shifted for the "out of class" test set
+        m=np.matrix([[3],[3]])
+        if correlated_inputs:
+            s=np.array([[0.4, 0.1], [0.1, 0.4]])
+        else:
+            s=np.array([[1.0,0],[0,1.0]])
+    else:
+        # mean of input
+        m=np.zeros([dimcount,1])
+        
+        if correlated_inputs:
+            # gaussian noise stimulus covariance matrix has non-zero off-diagonal terms
+            s=np.array([[1.0, 0.7], [0.7, 1.0]])
+        else:
+            # gaussian noise stimulus covariance matrix has zero off-diagonal terms
+            s=np.array([[1.0, 0], [0, 1.0]])
+    
+    # Generate the input and pass it through the linear filter based on above parameters
+    x=gnoise(m,s,T)
+
+    # linear filter
+    y=np.matmul(h1.T,x)
+
+    if output_nonlinearity:
+        # pass output of filter through sigmoid (if specified)
+        y=logsig_fn(sigmoid_parms,y)
+
+    if noise_amplitude:
+        # add noise (if specified)
+        # gaussian additive noise
+        y=y+gnoise(np.zeros([1,1]),np.matrix([[noise_amplitude]]),T)
+
+    return x,y
+
